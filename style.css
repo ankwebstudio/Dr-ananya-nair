@@ -2,7 +2,7 @@
 /* =========================================================
    DR. ANANYA NAIR
    PERSONAL PROFESSIONAL WEBSITE
-   STYLE.CSS
+   HOSPITALITY-INSPIRED STYLE.CSS
 ========================================================= */
 
 
@@ -12,26 +12,27 @@
 
 :root {
 
-    --primary: #24584a;
-    --primary-dark: #173d34;
-    --primary-light: #e8f0ec;
+    --primary: #8b5e3c;
+    --primary-dark: #4a3024;
+    --primary-light: #f1e5d8;
 
-    --accent: #c89b63;
+    --accent: #c49a6c;
+    --accent-light: #ead7bd;
 
-    --text: #1d2925;
-    --text-soft: #66736e;
+    --text: #30251f;
+    --text-soft: #7b6d63;
 
     --white: #ffffff;
-    --cream: #f8f7f2;
-    --cream-dark: #efeee7;
+    --cream: #fbf7f1;
+    --cream-dark: #f1e8dc;
 
-    --border: #dfe4df;
+    --border: #e6dcd1;
 
     --shadow-soft:
-        0 20px 60px rgba(25, 55, 45, 0.08);
+        0 20px 60px rgba(74, 48, 36, 0.10);
 
     --shadow-card:
-        0 12px 40px rgba(25, 55, 45, 0.07);
+        0 12px 40px rgba(74, 48, 36, 0.08);
 
     --serif: "Playfair Display", Georgia, serif;
 
@@ -39,7 +40,7 @@
 
     --container: 1200px;
 
-    --radius: 4px;
+    --radius: 6px;
 
     --transition:
         all 0.35s ease;
@@ -157,7 +158,7 @@ p {
     z-index: 1000;
 
     background:
-        rgba(248, 247, 242, 0.92);
+        rgba(251, 247, 241, 0.94);
 
     backdrop-filter:
         blur(16px);
@@ -176,7 +177,7 @@ p {
 
     box-shadow:
         0 8px 30px
-        rgba(20, 50, 40, 0.05);
+        rgba(74, 48, 36, 0.07);
 }
 
 
@@ -425,7 +426,7 @@ p {
     border-radius: 50%;
 
     background:
-        rgba(200, 155, 99, 0.07);
+        rgba(196, 154, 108, 0.12);
 
     top: -180px;
 
@@ -615,7 +616,7 @@ p {
 
     box-shadow:
         0 12px 25px
-        rgba(36, 88, 74, 0.18);
+        rgba(139, 94, 60, 0.22);
 }
 
 .button-secondary {
@@ -806,7 +807,7 @@ p {
     background:
         linear-gradient(
             to top,
-            rgba(23, 61, 52, 0.38),
+            rgba(74, 48, 36, 0.42),
             transparent 45%
         );
 
@@ -877,7 +878,7 @@ p {
         50%;
 
     background:
-        #c9e4d5;
+        #f0d8b8;
 }
 
 
@@ -1089,7 +1090,7 @@ p {
 
     border-bottom:
         1px solid
-        rgba(36, 88, 74, 0.3);
+        rgba(139, 94, 60, 0.3);
 
     padding-bottom:
         4px;
@@ -1552,7 +1553,7 @@ p {
 .featured-card p {
 
     color:
-        rgba(255, 255, 255, 0.7);
+        rgba(255, 255, 255, 0.72);
 }
 
 .featured-card a {
@@ -1564,7 +1565,7 @@ p {
 .featured-card .card-icon {
 
     background:
-        rgba(255,255,255,0.1);
+        rgba(255,255,255,0.12);
 
     color:
         var(--white);
@@ -1573,7 +1574,7 @@ p {
 .featured-card .card-number {
 
     color:
-        rgba(255,255,255,0.55);
+        rgba(255,255,255,0.58);
 }
 
 
@@ -1829,7 +1830,7 @@ p {
         1;
 
     color:
-        rgba(255,255,255,0.035);
+        rgba(255,255,255,0.05);
 
     pointer-events:
         none;
@@ -1838,7 +1839,7 @@ p {
 .highlights-heading .section-eyebrow {
 
     color:
-        #d3e5dd;
+        #f0d8b8;
 }
 
 .highlights-heading h2 {
@@ -1856,7 +1857,7 @@ p {
 .highlights-heading h2 span {
 
     color:
-        #c9ded5;
+        #f0d8b8;
 }
 
 .highlights-list {
@@ -1871,7 +1872,7 @@ p {
         1px;
 
     background:
-        rgba(255,255,255,0.15);
+        rgba(255,255,255,0.18);
 }
 
 .highlight-item {
@@ -1898,7 +1899,7 @@ p {
         3px;
 
     color:
-        #c9ded5;
+        #f0d8b8;
 
     font-size:
         17px;
@@ -1916,7 +1917,7 @@ p {
         0.15em;
 
     color:
-        rgba(255,255,255,0.55);
+        rgba(255,255,255,0.58);
 
     margin-bottom:
         5px;
@@ -2191,7 +2192,7 @@ p {
 .consultation-content .section-eyebrow {
 
     color:
-        #c9ded5;
+        #f0d8b8;
 }
 
 .consultation-content h2 {
@@ -2209,7 +2210,7 @@ p {
 .consultation-content h2 span {
 
     color:
-        #c9ded5;
+        #f0d8b8;
 }
 
 .consultation-content p {
@@ -2218,7 +2219,7 @@ p {
         520px;
 
     color:
-        rgba(255,255,255,0.68);
+        rgba(255,255,255,0.7);
 
     font-size:
         15px;
@@ -2252,7 +2253,7 @@ p {
 
     border:
         1px solid
-        rgba(255,255,255,0.12);
+        rgba(255,255,255,0.14);
 
     border-radius:
         50%;
@@ -2276,7 +2277,7 @@ p {
 
     border:
         1px solid
-        rgba(255,255,255,0.1);
+        rgba(255,255,255,0.11);
 
     border-radius:
         50%;
@@ -2294,7 +2295,7 @@ p {
         200;
 
     color:
-        rgba(255,255,255,0.12);
+        rgba(255,255,255,0.14);
 }
 
 
@@ -2556,7 +2557,7 @@ p {
 
     box-shadow:
         0 0 0 3px
-        rgba(36, 88, 74, 0.06);
+        rgba(139, 94, 60, 0.08);
 }
 
 .form-button {
@@ -2574,7 +2575,7 @@ p {
         1.6;
 
     color:
-        #87918c;
+        #9a8d82;
 }
 
 
@@ -2610,7 +2611,7 @@ p {
 
     border-bottom:
         1px solid
-        rgba(255,255,255,0.12);
+        rgba(255,255,255,0.14);
 }
 
 .footer-logo .brand-name {
@@ -2622,7 +2623,7 @@ p {
 .footer-logo .brand-role {
 
     color:
-        rgba(255,255,255,0.55);
+        rgba(255,255,255,0.58);
 }
 
 .footer-brand p {
@@ -2634,7 +2635,7 @@ p {
         18px;
 
     color:
-        rgba(255,255,255,0.55);
+        rgba(255,255,255,0.58);
 
     font-size:
         12px;
@@ -2682,7 +2683,7 @@ p {
         0.15em;
 
     color:
-        rgba(255,255,255,0.45);
+        rgba(255,255,255,0.48);
 
     margin-bottom:
         18px;
@@ -2694,7 +2695,7 @@ p {
         11px;
 
     color:
-        rgba(255,255,255,0.72);
+        rgba(255,255,255,0.74);
 
     margin-bottom:
         9px;
@@ -2738,7 +2739,7 @@ p {
 .footer-bottom p {
 
     color:
-        rgba(255,255,255,0.4);
+        rgba(255,255,255,0.44);
 
     font-size:
         9px;
@@ -2759,7 +2760,7 @@ p {
         9px;
 
     color:
-        rgba(255,255,255,0.45);
+        rgba(255,255,255,0.48);
 
     transition:
         var(--transition);
@@ -2783,10 +2784,10 @@ p {
 
     border-top:
         1px solid
-        rgba(255,255,255,0.08);
+        rgba(255,255,255,0.1);
 
     color:
-        rgba(255,255,255,0.35);
+        rgba(255,255,255,0.38);
 
     font-size:
         9px;
@@ -2798,7 +2799,7 @@ p {
 .medical-disclaimer strong {
 
     color:
-        rgba(255,255,255,0.55);
+        rgba(255,255,255,0.58);
 }
 
 
@@ -2917,7 +2918,7 @@ p {
 
         box-shadow:
             0 15px 30px
-            rgba(20,50,40,0.07);
+            rgba(74, 48, 36, 0.08);
 
         display:
             flex;
