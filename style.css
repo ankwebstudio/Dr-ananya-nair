@@ -12,22 +12,22 @@
 
 :root {
 
-    --primary: #2f6b5f;
-    --primary-dark: #173f38;
-    --primary-light: #e6f0ec;
+--primary: #356B8C;
+--primary-dark: #183B56;
+--primary-light: #E8F1F6;
 
-    --accent: #b89a67;
-    --accent-light: #e9ddc7;
+--accent: #C6A15B;
+--accent-light: #F3EBD9;
 
-    --text: #26332f;
-    --text-soft: #71807b;
+--background: #F8FAFC;
+--text: #24313A;
+--text-soft: #71808A;
 
-    --white: #ffffff;
+--white: #FFFFFF;
+--cream: #F5F7F9;
+--cream-dark: #E9EEF2;
 
-    --cream: #f8faf8;
-    --cream-dark: #edf3f0;
-
-    --border: #dce6e2;
+--border: #D9E2E8;
 
     --shadow-soft:
         0 20px 60px rgba(23, 63, 56, 0.10);
